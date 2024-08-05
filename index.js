@@ -23,6 +23,16 @@ function calculateBMI() {
   if(age>=65 && BMI >=24 && BMI<=29){
     alert("Healthy")
 
+  }else  if(age<=64 && age>=55 && BMI >=23 && BMI<=28){
+    alert("Healthy")
+  }else  if(age<=54 && age>=45 && BMI >=22 && BMI<=27){
+    alert("Healthy")
+  }else  if(age<=44 && age>=35 && BMI >=21 && BMI<=26){
+    alert("Healthy")
+  }else  if(age<=34 && age>=25 && BMI >=20 && BMI<=25){
+    alert("Healthy")
+  }else  if(age<=24 && age>=19 && BMI >=19 && BMI<=24){
+    alert("Healthy")
   }else{
     alert("Not Healthy")
   }
