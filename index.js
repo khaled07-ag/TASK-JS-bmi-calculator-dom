@@ -8,8 +8,8 @@ function calculateBMI() {
   console.table({ age, weight, height, male, female });
 
   // You are going to write the code here before the curly braces 👇🏻
-  height = height /100;
-  let BMI = (weight/ height^2);
+  height = height * 0.010;
+  let BMI = (weight / (height * height));
   alert(BMI)
   if(BMI >= 30.0){
     alert(BMI + " and Above Obesity")
